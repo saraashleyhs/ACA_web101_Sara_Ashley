@@ -1,5 +1,25 @@
+header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 article{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif; 
     font-size: 24px;
-    background-color: gray
+    background-color: gray;
+    border:  3px dotted red;    
+}
+
+.first{
+    font-size: 18px;
+    font-style: italic;
+    background-color: #f4425f;
+    border: 3px solid !important;
+}
+
+#paragraph{
+    font-size: 24px;
+    font-weight: bold;
+}
+.letter:hover{
+    color: #15a558;
 }

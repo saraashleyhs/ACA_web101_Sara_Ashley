@@ -19,6 +19,7 @@ header {
   /* ... */
 
 .container {
+    background-color: #82d8f2;
     display: grid; /* Using the grid */
     grid-template-areas: /* Notice how I've stacked my areas, just like they look on the page! */
       "header"
@@ -53,4 +54,46 @@ header {
     width: 175px;
     height: 30px;
     border: 2px solid black;
+  }
+
+  
+
+  .calculator-flex{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: #3e4144;
+  }
+
+  #calcbuttons-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: center;
+    width: 77%;
+    height: 80%;
+  }
+  .digits-flex{
+    width: 25px;
+    height: 25px;
+    margin-bottom: 8px;
+    border: 2px solid black;
+    text-align: center;
+  }
+
+  .math-flex{
+    width: 25px;
+    height: 25px;
+    margin-bottom: 8px;
+    justify-content: space-around;
+    border: 2px solid black;
+    text-align: center;
+  }
+
+  #output{
+    align-self: flex-end;
+    width: 100%;
+    height: 2em;
+    margin: 5px;
   }

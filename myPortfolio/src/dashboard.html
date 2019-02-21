@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="dashboard-style.css">
+    <link rel="stylesheet" href="./dashboard-style.css">
 </head>
 <body>
     <div class="container">
@@ -20,31 +20,53 @@
         <main>
           <h1>Main Title</h1>
           <p>Main content
-              <div class="calculator">
-                  <input type="text">
-                <div id="calcbuttons">
-                    <input type="button" class="digits" value="7"></input>
-                    <input type="button" class="digits" value="8"></input>
-                    <input type="button" class="digits" value="9"></input>
-                    <input type="button" class="math" value="*"></input>
-                    <input type="button" class="digits" value="4"></input>
-                    <input type="button" class="digits" value="5"></input>
-                    <input type="button" class="digits" value="6"></input>
-                    <input type="button" class="math" value="/"></input>
-                    <input type="button" class="digits" value="1"></input>
-                    <input type="button" class="digits" value="2"></input>
-                    <input type="button" class="digits" value="3"></input>
-                    <input type="button" class="math" value="+"></input>
-                    <input type="button" class="math" value="Cl"></input>
-                    <input type="button" class="digits" value="0"></input>
-                    <input type="button" class="math" value="="></input>
-                    <input type="button" class="math" value="-"></input>
-                </div>
-              </div>
+              
           </p>
         </main>
-        <aside>aside
-            
+        <aside>
+            <div class="calculator">
+                <input type="text" id="display">
+              <div id="calcbuttons">
+                  <input type="button" class="digits" value="7" onclick=""></input>
+                  <input type="button" class="digits" value="8"></input>
+                  <input type="button" class="digits" value="9"></input>
+                  <input type="button" class="math" value="*"></input>
+                  <input type="button" class="digits" value="4"></input>
+                  <input type="button" class="digits" value="5"></input>
+                  <input type="button" class="digits" value="6"></input>
+                  <input type="button" class="math" value="/"></input>
+                  <input type="button" class="digits" value="1"></input>
+                  <input type="button" class="digits" value="2"></input>
+                  <input type="button" class="digits" value="3"></input>
+                  <input type="button" class="math" value="+"></input>
+                  <input type="button" class="math" value="Cl"></input>
+                  <input type="button" class="digits" value="0"></input>
+                  <input type="button" class="math" value="="></input>
+                  <input type="button" class="math" value="-"></input>
+              </div>
+            </div>
+          <div class="calculator-flex">
+            <div id="calcbuttons-flex">
+              <input type="button-flex" class="digits-flex" value="7"></input>
+              <input type="button-flex" class="digits-flex" value="8"></input>
+              <input type="button-flex" class="digits-flex" value="9"></input>
+              <input type="button-flex" class="math-flex" value="-"></input>
+              <input type="button-flex" class="digits-flex" value="4"></input>
+              <input type="button-flex" class="digits-flex" value="5"></input>
+              <input type="button-flex" class="digits-flex" value="6"></input>
+              <input type="button-flex" class="math-flex" value="+"></input>
+              <input type="button-flex" class="digits-flex" value="1"></input>
+              <input type="button-flex" class="digits-flex" value="2"></input>
+              <input type="button-flex" class="digits-flex" value="3"></input>
+              <input type="button-flex" class="math-flex" value="/"></input>
+              <input type="button-flex" class="digits-flex" value="0"></input>
+              <input type="button-flex" class="math-flex" value="Cl"></input>
+              <input type="button-flex" class="math-flex" value="="></input>
+              <input type="button-flex" class="math-flex" value="*"></input>
+              <input type="text" id="output">
+            </div>
+          </div>
+
         </aside>
         <div class="banner">div.banner</div>
         <footer>footer</footer>

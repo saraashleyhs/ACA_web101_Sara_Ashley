@@ -1,0 +1,36 @@
+
+header{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: url(space.jpeg);
+    width: 850px;
+    height: 450px;
+}
+h1{
+    font-size: 4em;
+    color: white;
+}
+main{
+    display: flex;
+    background-color: rgb(187, 183, 183);
+    justify-content: center;
+    justify-content: space-between;
+    width: 850px;
+}
+section{
+    height: 324px;
+    width: 270px;
+    border: 2px solid black;
+}
+
+article{
+    display: block;
+}
+input{
+    width: 80%;
+    margin: 3px 0 0 3px; 
+}
+.message{
+    height: 20%;
+}

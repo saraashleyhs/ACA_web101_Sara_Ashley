@@ -3,7 +3,7 @@ header{
     display: grid;
     justify-content: center;
     align-items: center;
-    background-image: url(space.jpeg);
+    background-image: url(../images/space.jpeg);
     width: 850px;
     height: 450px;
 }

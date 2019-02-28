@@ -4,30 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>LCA Dashboard</title>
     <link rel="stylesheet" href="./dashboard-style.css">
 </head>
 <body>
     <div class="container">
-        <header>Hello all! Welcome to my Dashboard!</header>
+        <header>Hello all! Welcome to my Dashboard!
+            <h1>Sara's Lubbock Coding Academy Dashboard</h1>
+        </header>
         <nav>
-          <ul>
-            <li><a href="#">nav 1</a></li>
-            <li><a href="#">nav 2</a></li>
-            <li><a href="#">nav 3</a></li>
+          <ul class="nav">
+            <li><a href="#">HOME</a></li>
+            <li><a href="./Wireframes/">WIREFRAMES</a></li>
           </ul>
         </nav>
         <main>
-          <h1>Main Title</h1>
-          <p>Main content
-              
+          <p>
+            <div class="calendar-container">
+              <span class="month">February</span>
+              <ul class="days">
+                <li>Sun</li>
+                <li>Mon</li>
+                <li>Tues</li>
+                <li>Wed</li>
+                <li>Thur</li>
+                <li>Fri</li>
+                <li>Sat</li>
+              </ul>
+              <ul class="day-number1">
+                <li>-</li>
+                <li>-</li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+              </ul>
+              <ul class="day-number2">
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+              </ul>
+              <ul class="day-number3">
+                <li>13</li>
+                <li>14</li>
+                <li>15</li>
+                <li>16</li>
+                <li>17</li>
+                <li>18</li>
+                <li>19</li>
+              </ul>
+              <ul class="day-number4">
+                <li>20</li>
+                <li>21</li>
+                <li>22</li>
+                <li>23</li>
+                <li>24</li>
+                <li>25</li>
+                <li>26</li>
+              </ul>
+              <ul class="day-number5">
+                <li>28</li>
+                <li>29</li>
+                <li>30</li>
+                <li>31</li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+            </div>
           </p>
         </main>
         <aside>
             <div class="calculator">
-                <input type="text" id="display">
+              <input type="text" id="display">
               <div id="calcbuttons">
-                  <input type="button" class="digits" value="7" onclick=""></input>
+                  <input type="button" class="digits" value="7" ></input>
                   <input type="button" class="digits" value="8"></input>
                   <input type="button" class="digits" value="9"></input>
                   <input type="button" class="math" value="*"></input>
@@ -45,31 +101,19 @@
                   <input type="button" class="math" value="-"></input>
               </div>
             </div>
-          <div class="calculator-flex">
-            <div id="calcbuttons-flex">
-              <input type="button-flex" class="digits-flex" value="7"></input>
-              <input type="button-flex" class="digits-flex" value="8"></input>
-              <input type="button-flex" class="digits-flex" value="9"></input>
-              <input type="button-flex" class="math-flex" value="-"></input>
-              <input type="button-flex" class="digits-flex" value="4"></input>
-              <input type="button-flex" class="digits-flex" value="5"></input>
-              <input type="button-flex" class="digits-flex" value="6"></input>
-              <input type="button-flex" class="math-flex" value="+"></input>
-              <input type="button-flex" class="digits-flex" value="1"></input>
-              <input type="button-flex" class="digits-flex" value="2"></input>
-              <input type="button-flex" class="digits-flex" value="3"></input>
-              <input type="button-flex" class="math-flex" value="/"></input>
-              <input type="button-flex" class="digits-flex" value="0"></input>
-              <input type="button-flex" class="math-flex" value="Cl"></input>
-              <input type="button-flex" class="math-flex" value="="></input>
-              <input type="button-flex" class="math-flex" value="*"></input>
-              <input type="text" id="output">
-            </div>
-          </div>
-
         </aside>
-        <div class="banner">div.banner</div>
-        <footer>footer</footer>
-      </div>
+        <div class="banner">
+          <section>
+            <h2>Contact Us</h2>
+            <article class= "title">Name</article>
+            <input type="text" class="Name-input">
+            <article class= "title">Message</article>
+            <input class="Message" type="text">
+          </section>
+        </div>
+        <footer>
+          <a href="terms-of-service-template.pdf">Terms of Service</a>
+        </footer>
+    </div>
 </body>
 </html>

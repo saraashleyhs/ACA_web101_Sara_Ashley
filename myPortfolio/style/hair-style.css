@@ -19,7 +19,7 @@ header{
 
 .Glasses_man{
     display: grid;
-    background-image: url(./hair_images/the-beacon.jpg);
+    background-image: url(../images/hair_images/the-beacon.jpg);
     background-size: cover;
     padding: 15px;
 }

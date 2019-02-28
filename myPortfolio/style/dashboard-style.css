@@ -117,7 +117,6 @@ h1{
   .month{
    display: flex;
    margin: auto auto;
-   font
   }
   .days{
     display: flex;
@@ -204,18 +203,35 @@ h1{
     .container {
       background-color: #FFFA91;
       display: grid; /* Using the grid */
-      grid-template-columns: 1fr 4fr 1fr; 
+      grid-template-columns: 1fr 2fr 1fr; 
       grid-template-areas: /* Notice how I've stacked my areas, just like they look on the page! */
-        "header" "header" "header"
-        "nav"     "main"   "aside"
-        "banner" "banner" "banner"
-        "footer" "footer" "footer";
+        "header header header"
+        "nav    main     aside"
+        "banner  banner  banner"
+        "footer  footer   footer";
+    }
+    .nav{
+      flex-direction: column;
+    }
+    .nav > li:nth-child(2n){
+      margin-top: 5%;
+    }
+    .calendar-container{
+      width: 50vw;
+    }
+    .calculator{
+      margin-top: 5%;
+    }
+    footer{
+      background-color: #174033;
+      margin-left: 0;
+    }
+    footer > a{
+      color: white;
+    }
     
-        .nav{
-
-    }
-    }
   }
+  
   
   /* Extra Large and up (Wide Screen Desktops) */
   @media (min-width: 1200px) {
@@ -224,10 +240,29 @@ h1{
       display: grid; /* Using the grid */
       grid-template-columns: 1fr 4fr 1fr; 
       grid-template-areas: /* Notice how I've stacked my areas, just like they look on the page! */
-      "header" "header" "header"
-      "nav"     "main"   "aside"
-      "banner" "banner" "banner"
-      "footer" "footer" "footer";
+      "header header header"
+        "nav    main     aside"
+        "banner  banner  banner"
+        "footer  footer   footer";
+    }
+    .nav{
+      flex-direction: column;
+    }
+    .nav > li:nth-child(2n){
+      margin-top: 5%;
+    }
+    .calendar-container{
+      width: 50vw;
+    }
+    .calculator{
+      margin-top: 5%;
+    }
+    footer{
+      background-color: #174033;
+      margin-left: 0;
+    }
+    footer > a{
+      color: white;
     }
   }
 

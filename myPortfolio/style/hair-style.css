@@ -17,21 +17,24 @@ header{
     border: 2px solid teal;
 }
 
+
 .Glasses_man{
     display: grid;
     background-image: url(../images/hair_images/the-beacon.jpg);
-    background-size: cover;
+    background-size: auto;
     padding: 15px;
 }
 .Glasses_man h2{
     color: black;
     background-color: white;
+    width: 21.25em;
 }
 .Glasses_man span{
     padding: 15px;
     color: white;
     background-color: black;
     margin-top: 15px;
+    width: 30em;
 }
 .more{
     display: inline-block;

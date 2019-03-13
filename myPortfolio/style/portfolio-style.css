@@ -1,7 +1,36 @@
+body{
+    margin: auto;
+}
+main{
+    background-image: url(../images/ArtFicPic.jpg);
+    
+}
+.banner{
+    max-height: 150px;
+    border-bottom: 5px solid black;
+}
+#Projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border-bottom: 5px solid black; */
+}
+
+#Projects > a{
+    box-sizing: border-box;
+    width: fit-content;
+    border: 2px solid black;
+    padding: .25rem;
+    margin: 2px;
+    background-color: #75aaff; 
+}
+
 .iframe-container{
     position: relative;
     width: 100%;
-    padding-bottom: 50%;
+    padding-bottom: 56.25%;
+    margin-top: .25rem;
     height: 0;
 }
 
@@ -12,3 +41,15 @@
     width: 100%;
     height: 100%;
 }
+
+video{ TODO
+    position: relative;
+    
+}    
+
+#form_container{
+    box-sizing: border-box;
+    background-color: gray;
+    
+}
+

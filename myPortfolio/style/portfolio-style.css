@@ -1,19 +1,29 @@
 body{
     margin: auto;
+    background-color: gray
 }
 main{
-    background-image: url(../images/ArtFicPic.jpg);
+    background-color: gray;
     
 }
 .banner{
     max-height: 150px;
     border-bottom: 5px solid black;
 }
+.banner h2{
+    padding-top: 5px;
+    margin: 0;
+    text-align: center;
+    border-bottom: 5px solid black;
+}
+
 #Projects{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    margin-left: 10px;
+    padding-top: 5px;
     /* border-bottom: 5px solid black; */
 }
 
@@ -37,19 +47,96 @@ main{
 .iframe-container iframe{
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
 }
 
-video{ TODO
+video{
     position: relative;
-    
+    top: 0;
+    left: 10%;
+    width: 80%;
+    height: 80%;
 }    
 
 #form_container{
     box-sizing: border-box;
-    background-color: gray;
-    
+    padding: 2%;
+    background-color: whitesmoke;
+    border: 2px black;
+    margin: 15%;
 }
+#form_container form{
+    display: grid;
+}
+#form_container h1{
+    border-top: 2px black;
+    border-bottom: 2px black;
+    font-size: 24px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+#form_container span{
+    padding-bottom: 5px;
+}
+#form-item{
+    position: relative;
+    margin-right: 10%;
+}    
+#button{
+    width: 75px;
+    background-color: gray;
+    border: transparent;
+    margin: 2px;
+    color: white;
+    text-transform: uppercase;
+}
+@media (min-width: 576px) {
+    #Projects{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        padding-top: 5px;
+    }
+  }
+  
+  /* Medium and up (Tablets) */
+  @media (min-width: 768px) {
+    #Projects{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        padding-top: 5px;
+    }
+  }
+  
+  /* Large and up (Desktops) */
+  @media (min-width: 992px) {
+    #Projects{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        padding-top: 5px;
+    }
+  }
+  
+  
+  /* Extra Large and up (Wide Screen Desktops) */
+  @media (min-width: 1200px) {
+    #Projects{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        padding-top: 5px;
+    }
+  }
 

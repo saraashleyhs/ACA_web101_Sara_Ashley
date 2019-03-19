@@ -25,6 +25,40 @@ body {
     display: grid;
     grid-template-columns: 30% 40% 30%;
   }
+
+  .disappear-item{
+    visibility: hidden;
+    font-family: sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding: 10%;
+    color: whitesmoke;
+    /* animation */
+    animation-name: disappear;
+    animation-delay: 1s;
+    animation-duration: 3s;
+  }
+  
+  @keyframes disappear{
+    0% {
+      visibility: hidden;
+      font-size:15px;
+      }
+    25% {
+      font-size: 30px;
+      visibility: visible;
+      }
+    50% {
+      visibility: visible;
+      }
+    75% {
+      font-size:15px;
+      visibility: visible;
+      }
+
+    100% {visibility: hidden;
+    }
+  }
   
   nav > a {
     margin: 2% 1% 3%;

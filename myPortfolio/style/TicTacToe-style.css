@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+}
+header{
+    text-transform: uppercase;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+#gameboard{
+    width: fit-content;
+    display: grid;
+    grid-template-areas: 
+    "  . . .  "
+    "  . . .  "
+    "  . . .  ";
+    grid-column-gap: 0px;
+    margin-left: calc(50vw - 165px);
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+}
+
+.sides{
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+.all{
+    border: 2px solid white;
+}
+.tops{
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+ 
+}

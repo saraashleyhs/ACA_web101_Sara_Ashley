@@ -12,16 +12,20 @@
         Let's play! 
     </header>
     <div id="gameboard">
-        <div class="box one"></div>
-        <div class="box sides two"></div>
-        <div class="box three"></div>
-        <div class="box tops four"></div>
-        <div class="box all five"></div>
-        <div class="box tops six"></div>
-        <div class="box seven"></div>
-        <div class="box sides eight"></div>
-        <div class="box nine"></div>
+        <div id="square1" class="box one" onclick="placeMark('square1')"></div>
+        <div id="square2" class="box sides two" onclick="placeMark('square2')"></div>
+        <div id="square3" class="box three" onclick="placeMark('square3')"></div>
+        <div id="square4" class="box tops four" onclick="placeMark('square4')"></div>
+        <div id="square5" class="box all five" onclick="placeMark('square5')"></div>
+        <div id="square6" class="box tops six" onclick="placeMark('square6')"></div>
+        <div id="square7" class="box seven" onclick="placeMark('square7')"></div>
+        <div id="square8" class="box sides eight" onclick="placeMark('square8')"></div>
+        <div id="square9" class="box nine" onclick="placeMark('square9')"></div>
     </div>
+    <section id="command">
+        <button id="X-btn" name="X" onclick="changeMarkerToX()">X</button>
+        <button id="O-btn" name="O" onclick="changeMarkerToO()">O</button>
+    </section>
 
     <script src="../scripts/TicTacToe.js"></script>
 </body>

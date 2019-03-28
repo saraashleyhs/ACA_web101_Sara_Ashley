@@ -80,6 +80,19 @@
           </p>
         </main>
         <aside>
+            <div id="list_section">
+                <h1 id="header">To-do list</h1>
+                  <ol id=TD-list>
+                    <li class="item">LCA Homework</li>
+                  </ol>
+                  <div id="newItemButton"><button href="#">new item</button></div>
+                  <div>
+                    <form id="newItemForm">
+                      <input type="text" id="itemField" placeholder="Item" />
+                      <input type="submit" id="add" value="add" />
+                    </form>
+                  </div>
+            </div>
             <div class="calculator">
               <input type="text" id="display">
               <div id="calcbuttons">
@@ -115,5 +128,7 @@
           <a href="../images/terms-of-service-template.pdf">Terms of Service</a>
         </footer>
     </div>
+    <script src="../scripts/jQuery.js"></script>
+    <script src="../scripts/ToDoList.js"></script>
 </body>
 </html>

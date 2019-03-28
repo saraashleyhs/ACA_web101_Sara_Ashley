@@ -32,7 +32,9 @@ header{
     height: 100px;
     text-align: center;
     color: whitesmoke;
-
+    padding-top: 35px;
+    font-size: 40px;
+    font-weight: bolder;
 }
 
 .sides{

@@ -15,7 +15,7 @@ header {
   }
   footer {
     grid-area: footer;
-  }
+  } 
   /* ... */
 
 .container {
@@ -111,8 +111,10 @@ ul {
 #TD-list {
   list-style-type: none;
 }
-#list_section {
+#list_section{
   text-align: center;
+  border-bottom: 2px solid black;
+  width: 355px;
 }
 #list_section > h1{
   margin: 0px auto;

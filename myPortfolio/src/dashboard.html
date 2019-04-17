@@ -21,11 +21,43 @@
             <li><a href="#">HOME</a></li>
             <li><a href="../images/Wireframes/Wireframes template.pdf">WIREFRAMES</a></li>
           </ul>
+          <div id="calc">
+            <input type="text" id="results" readonly>
+            <table>
+              <tr>
+                <td class="button2" onclick="displayNumber('1')">1</td>
+                <td class="button2" onclick="displayNumber('2')">2</td>
+                <td class="button2" onclick="displayNumber('3')">3</td>
+                <td class="button2" onclick="addition()">+</td>
+              </tr>
+              <tr>
+                <td class="button2" onclick="displayNumber('4')">4</td>
+                <td class="button2" onclick="displayNumber('5')">5</td>
+                <td class="button2" onclick="displayNumber('6')">6</td>
+                <td class="button2" onclick="subtraction()">-</td>
+              </tr>
+              <tr>
+                <td class="button2" onclick="displayNumber('7')">7</td>
+                <td class="button2" onclick="displayNumber('8')">8</td>
+                <td class="button2" onclick="displayNumber('9')">9</td>
+                <td class="button2" onclick="multiply()">*</td>
+              </tr>
+              <tr>
+                <td class="button2" id="signbutton" onclick="signFunction()">+/-</td>
+                <td class="button2" onclick="displayNumber('0')">0</td>
+                <td class="button2" onclick="equals()">=</td>
+                <td class="button2" onclick="division()">/</td>
+              </tr>
+              <tr>
+                <td class="button2" colspan="2" onclick="deleteLast()">Delete</td>
+                <td class="button2" colspan="2" onclick="clearResults()">Clear</td>
+            </table>
+          </div>
         </nav>
         <main>
           <p>
             <div class="calendar-container">
-              <span class="month">February</span>
+              <p class="month">February</p>
               <ul class="days">
                 <li>Sun</li>
                 <li>Mon</li>
@@ -93,11 +125,11 @@
                   <div>
                     <form id="newItemForm">
                       <input type="text" id="itemField" placeholder="Item" />
-                      <input type="submit" id="add" value="add" />
+                      <input type="submit" id="add" value="Add" />
                     </form>
                   </div>
             </div>
-            <div class="calculator">
+            <!-- <div class="calculator"> 
               <input type="text" id="display">
               <div id="calcbuttons">
                   <input type="button" class="digits" value="7" ></input>
@@ -117,10 +149,10 @@
                   <input type="button" class="math" value="="></input>
                   <input type="button" class="math" value="-"></input>
               </div>
-            </div>
+            </div>-->
         </aside>
         <div class="banner">
-          <section>
+          <section >
             <h2>Contact Us</h2>
             <article class= "title">Name</article>
             <input type="text" class="Name-input">

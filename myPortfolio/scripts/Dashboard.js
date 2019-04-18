@@ -74,3 +74,5 @@ function deleteLast() {
   let current = document.querySelector("#results").value;
   document.querySelector("#results").value = current.slice(0, -1);
 }
+
+//Game functions

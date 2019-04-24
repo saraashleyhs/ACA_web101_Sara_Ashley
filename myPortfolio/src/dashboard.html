@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>LCA Dashboard</title>
     <link rel="stylesheet" href="../style/dashboard-style.css">
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -114,7 +115,17 @@
               </ul>
             </div>
           </p>
-          
+          <div id="game" onclick="startFunction()"><!--game div-->
+            <h1 id="start">PRESS HERE TO START</h1><!--This text will change during the game-->
+            <div id="block"></div>
+                <div id="counter">
+                CLICKS: 
+                 <span class="number"></span>
+            </div>
+            <div id="center">
+            <button id="reset">Reset</button>
+            </div>
+        </div>   
         </main>
         <aside>
             <div id="list_section">
@@ -130,6 +141,13 @@
                     </form>
                   </div>
             </div>
+            <section >
+              <h2>Contact Us</h2>
+              <article class= "title">Name</article>
+              <input type="text" class="Name-input">
+              <article class= "title">Message</article>
+              <input class="Message" type="text">
+            </section>
             <!-- <div class="calculator"> 
               <input type="text" id="display">
               <div id="calcbuttons">
@@ -152,15 +170,6 @@
               </div>
             </div>-->
         </aside>
-        <div class="banner">
-          <section >
-            <h2>Contact Us</h2>
-            <article class= "title">Name</article>
-            <input type="text" class="Name-input">
-            <article class= "title">Message</article>
-            <input class="Message" type="text">
-          </section>
-        </div>
         <footer>
           <a href="../images/terms-of-service-template.pdf">Terms of Service</a>
         </footer>

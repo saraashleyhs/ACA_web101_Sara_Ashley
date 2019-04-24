@@ -10,9 +10,6 @@ header {
   aside {
     grid-area: aside;
   }
-  .banner {
-    grid-area: banner;
-  }
   footer {
     grid-area: footer;
   } 
@@ -26,7 +23,6 @@ header {
       "nav"
       "main"
       "aside"
-      "banner"
       "footer";
       height: 100vh;
       width: 100vw;
@@ -265,6 +261,75 @@ input[type='submit'] {
     align-items: center;
     list-style: none;
   }
+/*Game styles*/
+
+#block {
+    background-color: #eaf5ff;
+    transition: background-color .3s;
+}
+
+#game:hover {
+    background-color: #dee9f3;
+}
+#game{
+    border: 5px solid black;
+    width: 50vw;
+    margin-left: 10%;
+}
+
+#start {
+    text-align: center;
+    margin: 15px 0 5px 0;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+#start:hover{
+    text-decoration: underline;
+    color:gray;
+}
+
+#block {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background-color: #8080ff;
+    margin: auto;
+    box-shadow: 0px 0px 15px gray;
+    -webkit-animation: random 2s;
+    animation: random 2s;
+}
+
+#counter {
+    font-size: 120%;
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'ZCOOL KuaiLe', cursive;}
+
+#reset {
+    display: none;
+    padding: 5px; 
+    width: 150px;
+    height: 75px;
+    font-size: 150%;
+    text-align: center;
+    font-family: 'ZCOOL KuaiLe', cursive;}
+
+#center {
+    width: 150px;
+    margin: auto;
+}
+
+@keyframes random {
+    20% { 
+        background-color: red;     
+        box-shadow: 0px 0px 15px red; 
+    } 
+    80% { 
+        background-color: blue;
+        box-shadow: 0px 0px 15px blue; 
+    }
+}
+
+
 
   @media (min-width: 576px) {
     .container {
@@ -275,7 +340,6 @@ input[type='submit'] {
         "nav"
         "main"
         "aside"
-        "banner"
         "footer";
     }
   }
@@ -290,7 +354,6 @@ input[type='submit'] {
         "nav"
         "main"
         "aside"
-        "banner"
         "footer";
     }
   }
@@ -304,7 +367,6 @@ input[type='submit'] {
       grid-template-areas: /* Notice how I've stacked my areas, just like they look on the page! */
         "header header header"
         "nav    main     aside"
-        "banner  banner  banner"
         "footer  footer   footer";
     }
     .nav{
@@ -339,7 +401,6 @@ input[type='submit'] {
       grid-template-areas: /* Notice how I've stacked my areas, just like they look on the page! */
       "header header header"
         "nav    main     aside"
-        "banner  banner  banner"
         "footer  footer   footer";
     }
     .nav{
